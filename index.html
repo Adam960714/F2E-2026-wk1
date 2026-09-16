@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁名稱</title>
+    <style>
+        /* 簡單的 CSS 樣式美化 */
+        body {
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>歡迎來到首頁</h1>
+        <p>這是一串文字</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>關於這個網頁</h2>
+            <p>這裡什麼都沒有</p>
+            <p>但下面有個按鈕</p>
+        </div>
+
+        <div class="card">
+            <h2>互動小功能</h2>
+            <p>點擊下方按鈕試試看：</p>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=zqef3QLol_fwcyPL"><button>點我一下</button></a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 我的第一個網站. All rights reserved.</p>
+    </footer>
+</body>
+</html>
